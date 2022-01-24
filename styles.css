@@ -18,3 +18,24 @@
   text-decoration-thickness: 5px;
   text-underline-offset: 3.5px;
 }
+
+#intro {
+  width: 100%;
+  height: calc(100vh - 0px);
+  background: url('https://bootstrapmade.com/demo/templates/Maxim/assets/img/hero-bg.jpg')
+    center center;
+  background-size: cover;
+  position: relative;
+  margin-top: 0px;
+  padding: 0;
+}
+
+#intro h1 {
+  font-size: 48px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+#intro h2 {
+  font-size: 24px;
+}
