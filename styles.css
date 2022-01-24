@@ -1,3 +1,20 @@
-body {
-  background: orange;
+#navbar1,
+#navbar2,
+#navbar3,
+#navbar4,
+#navbar5,
+#navbar6 {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#navbar1:hover,
+#navbar2:hover,
+#navbar3:hover,
+#navbar4:hover,
+#navbar5:hover,
+#navbar6:hover {
+  text-decoration: underline green;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 3.5px;
 }
