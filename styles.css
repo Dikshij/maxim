@@ -39,3 +39,7 @@
 #intro h2 {
   font-size: 24px;
 }
+
+#intro a:hover {
+  background-color: #1bac91;
+}
