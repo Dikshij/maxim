@@ -60,3 +60,7 @@
 #about p {
   font-size: 32px;
 }
+
+#content {
+  padding-top: 10%;
+}
