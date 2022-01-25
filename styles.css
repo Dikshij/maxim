@@ -71,3 +71,16 @@
 .test1 {
   display: inline-block;
 }
+
+#about2 .test {
+  padding: 40px;
+  border-left: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  margin: -1px;
+}
+
+#about2 {
+  padding: 10%;
+  background-color: d4e9e6;
+  height: 100%;
+}
