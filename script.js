@@ -22,5 +22,5 @@ function clickedMe() {
   card.appendChild(cardBody);
   dikshi1.appendChild(card);
   document.getElementById('img1').src =
-    'https://bootstrapmade.com/demo/templates/Maxim/assets/img/about-img.jpg';
+    'https://bootstrapmade.com/demo/templates/Maxim/assets/img/features-1.png';
 }

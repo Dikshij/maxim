@@ -106,7 +106,7 @@
     margin: -1px;
   }
 
-  #about .h4 {
+  #about2 .h4 {
     font-size: 28px;
     font-weight: 400;
     padding: 0;
@@ -114,4 +114,15 @@
     color: #21413c;
     font-family: 'Raleway';
   }
+}
+#about3 .card {
+  margin: 18%;
+  box-sizing: border-box;
+}
+
+#about3 .card:hover {
+  margin: 18%;
+  background-color: #1bac91;
+
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 12%);
 }
