@@ -72,15 +72,37 @@
   display: inline-block;
 }
 
-#about2 .test {
-  padding: 40px;
-  border-left: 1px solid #ced4da;
-  border-bottom: 1px solid #ced4da;
-  margin: -1px;
-}
-
 #about2 {
   padding: 10%;
   background-color: d4e9e6;
-  height: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  #about2 .test {
+    padding: 40px;
+    border-right: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    margin: -1px;
+  }
+
+  #about2 .test1 {
+    padding: 40px;
+    border-left: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    margin: -1px;
+  }
+
+  #about2 .test2 {
+    padding: 40px;
+    border-right: 1px solid #ced4da;
+
+    margin: -1px;
+  }
+
+  #about2 .test3 {
+    padding: 40px;
+    border-left: 1px solid #ced4da;
+
+    margin: -1px;
+  }
 }
