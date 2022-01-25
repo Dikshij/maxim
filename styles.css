@@ -64,3 +64,10 @@
 #content {
   padding-top: 5%;
 }
+
+.test {
+  display: inline-block;
+}
+.test1 {
+  display: inline-block;
+}
