@@ -74,6 +74,31 @@ function clickedMe() {
   cardBody3.appendChild(color3);
   card3.appendChild(cardBody3);
   dikshi3.appendChild(card3);
+
+  //Make card 4 normal
+  document.getElementById('dikshi4');
+  var card4 = (document.getElementById('dikshi4').innerHTML = '');
+
+  card4 = document.createElement('div');
+
+  card4.className = 'card border-0';
+
+  let cardBody4 = document.createElement('div');
+  cardBody4.className = 'card-body';
+
+  let title4 = document.createElement('h5');
+  title4.innerText = 'Our people like';
+  title4.className = 'card-title';
+
+  let color4 = document.createElement('div');
+  color4.innerText =
+    'By reason of this,our sage understand that there is no pain and that he is not';
+  color4.className = 'black';
+
+  cardBody4.appendChild(title4);
+  cardBody4.appendChild(color4);
+  card4.appendChild(cardBody4);
+  dikshi4.appendChild(card4);
 }
 
 function clickedMe2() {
@@ -151,6 +176,31 @@ function clickedMe2() {
   cardBody3.appendChild(color3);
   card3.appendChild(cardBody3);
   dikshi3.appendChild(card3);
+
+  //Make card 4 normal
+  document.getElementById('dikshi4');
+  var card4 = (document.getElementById('dikshi4').innerHTML = '');
+
+  card4 = document.createElement('div');
+
+  card4.className = 'card border-0';
+
+  let cardBody4 = document.createElement('div');
+  cardBody4.className = 'card-body';
+
+  let title4 = document.createElement('h5');
+  title4.innerText = 'Our people like';
+  title4.className = 'card-title';
+
+  let color4 = document.createElement('div');
+  color4.innerText =
+    'By reason of this,our sage understand that there is no pain and that he is not';
+  color4.className = 'black';
+
+  cardBody4.appendChild(title4);
+  cardBody4.appendChild(color4);
+  card4.appendChild(cardBody4);
+  dikshi4.appendChild(card4);
 }
 
 function clickedMe3() {
@@ -178,6 +228,132 @@ function clickedMe3() {
   dikshi3.appendChild(card);
   document.getElementById('img1').src =
     'https://bootstrapmade.com/demo/templates/Maxim/assets/img/features-3.png';
+
+  //Make card 1 original card
+
+  document.getElementById('dikshi1');
+  var card2 = (document.getElementById('dikshi1').innerHTML = '');
+  card2 = document.createElement('div');
+
+  card2.className = 'card border-0';
+
+  let cardBody2 = document.createElement('div');
+  cardBody2.className = 'card-body';
+
+  let title2 = document.createElement('h5');
+  title2.innerText = 'Modi is est';
+  title2.className = 'card-title';
+
+  let color2 = document.createElement('div');
+  color2.innerText =
+    'Who will catch him,but the whole of them are none where you will encounter him';
+  color2.className = 'black';
+
+  cardBody2.appendChild(title2);
+  cardBody2.appendChild(color2);
+  card2.appendChild(cardBody2);
+  dikshi1.appendChild(card2);
+
+  //Make card2 original card
+
+  document.getElementById('dikshi2');
+  var card1 = (document.getElementById('dikshi2').innerHTML = '');
+
+  card1 = document.createElement('div');
+
+  card1.className = 'card border-0';
+
+  let cardBody1 = document.createElement('div');
+  cardBody1.className = 'card-body';
+
+  let title1 = document.createElement('h5');
+  title1.innerText = 'The Source Of The Present';
+  title1.className = 'card-title';
+
+  let color1 = document.createElement('div');
+  color1.innerText = 'Pleaseure or repedition by which to catch him';
+  color1.className = 'black';
+
+  cardBody1.appendChild(title1);
+  cardBody1.appendChild(color1);
+  card1.appendChild(cardBody1);
+  dikshi2.appendChild(card1);
+
+  //Make card 4 normal
+  document.getElementById('dikshi4');
+  var card4 = (document.getElementById('dikshi4').innerHTML = '');
+
+  card4 = document.createElement('div');
+
+  card4.className = 'card border-0';
+
+  let cardBody4 = document.createElement('div');
+  cardBody4.className = 'card-body';
+
+  let title4 = document.createElement('h5');
+  title4.innerText = 'Our people like';
+  title4.className = 'card-title';
+
+  let color4 = document.createElement('div');
+  color4.innerText =
+    'By reason of this,our sage understand that there is no pain and that he is not';
+  color4.className = 'black';
+
+  cardBody4.appendChild(title4);
+  cardBody4.appendChild(color4);
+  card4.appendChild(cardBody4);
+  dikshi4.appendChild(card4);
+}
+
+function clickedMe4() {
+  document.getElementById('dikshi4');
+  var card4 = (document.getElementById('dikshi4').innerHTML = '');
+
+  card4 = document.createElement('div');
+
+  card4.className = 'card shadow cursor-pointer';
+
+  let cardBody4 = document.createElement('div');
+  cardBody4.className = 'card-body';
+
+  let title4 = document.createElement('h5');
+  title4.innerText = 'Our people like';
+  title4.className = 'card-title';
+
+  let color4 = document.createElement('div');
+  color4.innerText =
+    'By reason of this,our sage understand that there is no pain and that he is not';
+  color4.className = 'black';
+
+  cardBody4.appendChild(title4);
+  cardBody4.appendChild(color4);
+  card4.appendChild(cardBody4);
+  dikshi4.appendChild(card4);
+  document.getElementById('img1').src =
+    'https://bootstrapmade.com/demo/templates/Maxim/assets/img/features-4.png';
+  //Make card 3 original
+  document.getElementById('dikshi3');
+  var card = (document.getElementById('dikshi3').innerHTML = '');
+
+  card = document.createElement('div');
+
+  card.className = 'card  border-0';
+
+  let cardBody = document.createElement('div');
+  cardBody.className = 'card-body';
+
+  let title = document.createElement('h5');
+  title.innerText = 'I will explain or';
+  title.className = 'card-title';
+
+  let color = document.createElement('div');
+  color.innerText = 'She wants to be pardoned,no fuzzy flattery is born';
+  color.className = 'black';
+
+  cardBody.appendChild(title);
+  cardBody.appendChild(color);
+  card.appendChild(cardBody);
+  dikshi3.appendChild(card);
 
   //Make card 1 original card
 
