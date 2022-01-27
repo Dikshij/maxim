@@ -74,7 +74,7 @@
 
 #about2 {
   padding: 10%;
-  background-color: d4e9e6;
+  background-color: #d4e9e6;
 }
 
 @media screen and (min-width: 992px) {
@@ -116,13 +116,9 @@
   }
 }
 #about3 .card {
-  margin: 18%;
   box-sizing: border-box;
 }
 
 #about3 .card:hover {
-  margin: 18%;
-  background-color: #1bac91;
-
-  box-shadow: 0px 2px 15px rgb(0 0 0 / 12%);
+  color: #1bac91;
 }
