@@ -106,7 +106,7 @@
     margin: -1px;
   }
 
-  #about2 .h4 {
+  #about2 h4 {
     font-size: 28px;
     font-weight: 400;
     padding: 0;
@@ -121,4 +121,14 @@
 
 #about3 .card:hover {
   color: #1bac91;
+}
+
+#Services h2 {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0;
+  color: #21413c;
+
+  font-family: 'Raleway';
+  text-align: center;
 }
