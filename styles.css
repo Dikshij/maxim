@@ -117,6 +117,8 @@
 }
 #about3 .card {
   box-sizing: border-box;
+  padding-right: 5%;
+  margin-left: 15%;
 }
 
 #about3 .card:hover {
@@ -131,4 +133,9 @@
 
   font-family: 'Raleway';
   text-align: center;
+  margin: 2%;
+}
+
+#Services {
+  background-color: #d4e9e6;
 }
