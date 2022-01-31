@@ -121,6 +121,11 @@
   margin-left: 15%;
 }
 
+#about3 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 #about3 .card:hover {
   color: #1bac91;
 }
@@ -140,6 +145,7 @@
   background-color: #d4e9e6;
   padding-left: 7%;
   padding-right: 7%;
+  padding-bottom: 5%;
 }
 
 .fa-dribbble {
