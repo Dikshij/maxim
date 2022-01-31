@@ -150,10 +150,17 @@
 }
 
 .iconify {
-  font-size: 36px;
+  font-size: 40px;
   color: rgb(63, 205, 199);
   align-items: center;
   margin-left: 42%;
+}
+
+.fa-globe-asia {
+  font-size: 36px;
+  color: red;
+  position: relative;
+  left: 43.8%;
 }
 
 #Services .card {
@@ -163,6 +170,7 @@
   border-width: 1px;
   margin: 15px;
   padding: 10px;
+  height: 15rem;
 }
 
 #Services .card-title {
