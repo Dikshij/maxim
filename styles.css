@@ -21,7 +21,7 @@
 
 #intro {
   width: 100%;
-  height: calc(100vh - 0px);
+  height: /*calc(100vh - 0px)*/ auto;
   background: url('https://bootstrapmade.com/demo/templates/Maxim/assets/img/hero-bg.jpg')
     center center;
   background-size: cover;
@@ -187,4 +187,65 @@
 #Services .card:hover {
   box-shadow: 1px 8px 20px grey;
   -webkit-transition: box-shadow 0.6s ease-in;
+}
+
+#Testimonials * {
+  /*box-sizing: border-box;*/
+  height: auto;
+}
+
+#Testimonials .carousel {
+  background: #eee;
+}
+
+#Testimonials .carousel-cell {
+  width: 28%;
+  height: auto;
+  margin-right: 10px;
+  background: #8c8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+#Testimonials .carousel-cell.is-selected {
+  background: white;
+}
+
+/* cell number */
+#Testimonials .carousel-cell:before {
+  display: block;
+  text-align: center;
+
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+#Testimonials img {
+  width: 90px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid #fff;
+}
+
+#Testimonials .card {
+  background-color: #d4e9e6;
+  margin: 25px;
+  border-color: white;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+@media screen and (max-width: 502px) {
+  #Testimonials .carousel-cell {
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    background: #8c8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
 }
