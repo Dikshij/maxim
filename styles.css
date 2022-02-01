@@ -239,6 +239,11 @@
   border-width: 1px;
 }
 
+#Testimonials .text {
+  margin-left: 2em;
+  color: black;
+}
+
 @media screen and (max-width: 502px) {
   #Testimonials .carousel-cell {
     width: 100%;
