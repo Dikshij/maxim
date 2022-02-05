@@ -194,16 +194,20 @@
   height: auto;
 }
 
+#Testimonials {
+  padding-top: 2%;
+}
+
 #Testimonials .carousel {
-  background: #eee;
+  background: white;
 }
 
 #Testimonials .carousel-cell {
   width: 28%;
   height: auto;
   margin-right: 10px;
-  background: #8c8;
-  border-radius: 5px;
+  background: white;
+  border-radius: 2px;
   counter-increment: carousel-cell;
 }
 
@@ -237,6 +241,7 @@
   border-radius: 25px;
   border-style: solid;
   border-width: 1px;
+  height: auto;
 }
 
 #Testimonials .text {
@@ -244,13 +249,42 @@
   color: black;
 }
 
+#Testimonial .p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 @media screen and (max-width: 502px) {
   #Testimonials .carousel-cell {
     width: 100%;
     height: auto;
     margin-right: 10px;
-    background: #8c8;
-    border-radius: 5px;
+    background: white;
+    border-radius: 2px;
     counter-increment: carousel-cell;
   }
+}
+
+li {
+  padding-left: 1.4em;
+  list-style: none;
+  display: flex;
+}
+li:before {
+  content: '\f00c'; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.4em; /* same as padding-left set on li */
+  width: 1.4em; /* same as padding-left set on li */
+}
+
+div.b {
+  text-align: justify; /* For Edge */
+  -moz-text-align-last: center; /* For Firefox prior 58.0 */
+  text-align-last: center;
+  margin-left: 8%;
+  margin-right: 8%;
 }
